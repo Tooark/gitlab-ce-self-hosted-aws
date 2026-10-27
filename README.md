@@ -11,7 +11,7 @@ This repository contains Terraform modules and templates to provision a self-hos
 
 ## Overview architecture
 
-![Architecture Diagram](./images/gitlab-self-hosted-Gitlab%20-%20Self%20Hosted.jpg)
+![Architecture Diagram](./media/gitlab-self-hosted-Gitlab%20-%20Self%20Hosted.jpg)
 
 ### What gets created
 
@@ -38,7 +38,7 @@ This repository contains Terraform modules and templates to provision a self-hos
 
 ## CodePipeline Suggested Pipeline
 
-![CodePipeline Diagram](./images/codepipeline.png)
+![CodePipeline Diagram](./media/codepipeline.png)
 
 The pipeline itself is created outside Terraform; this repository ships the two CodeBuild buildspecs it uses.
 
@@ -139,12 +139,12 @@ Runners: Runners use auto-scaling. Review the `autoscaling_configs_for_runners_*
 
 ### Diagrams
 
-- `./images/gitlab-self-hosted.drawio`: editable source (draw.io).
+- `./media/gitlab-self-hosted.drawio`: editable source (draw.io).
   - Page 1: the architecture as implemented.
   - Page 2: a Disaster Recovery target design, not implemented.
-- `./images/gitlab-self-hosted-Gitlab - Self Hosted.jpg`: export of page 1.
-- `./images/gitlab-self-hosted-Gitlab - Self Hosted.drawio.png`: editable PNG export of page 1 (opens in draw.io).
-- `./images/codepipeline.png`: suggested AWS CodePipeline structure for CI/CD automation.
+- `./media/gitlab-self-hosted-Gitlab - Self Hosted.jpg`: export of page 1.
+- `./media/gitlab-self-hosted-Gitlab - Self Hosted.drawio.png`: editable PNG export of page 1 (opens in draw.io).
+- `./media/codepipeline.png`: suggested AWS CodePipeline structure for CI/CD automation.
 
 ### License
 
