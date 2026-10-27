@@ -50,3 +50,10 @@ terraform.*.pem
 
 #Lambda inital codes
 *.zip
+
+#Clip videos brag
+brag*/**
+
+#draw.io backups and temp files
+*.drawio.bkp
+*.drawio.dtmp
